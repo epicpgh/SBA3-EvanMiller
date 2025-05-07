@@ -1,4 +1,5 @@
 .desktop{
+   
     height: 800px !important;
     width: 1440px !important;
     display: flex;
@@ -16,11 +17,20 @@
     
 }  
 .info-card{
+    
+
+box-shadow: 0px 0px 13px 0px rgba(62, 39, 83, 0.25);
+    box-sizing: content-box;
     height: 505px !important;
     width: 247px !important;
     
 
 } 
+.walker-info{
+    border-radius: 20px 20px 6px 6px;
+background: linear-gradient(225deg, #E844FF 0%, #8739FF 100%);
+
+}
 h2{
     font-size: 1rem !important;
 }
@@ -33,4 +43,12 @@ h3{
   font-size: 8px;
   font-weight: regular;
   font-style: normal;
+}
+#dog-img{
+    height:40px;
+    width:40px;
+}
+.info{
+    width: 445px;
+    height:183px;
 }
