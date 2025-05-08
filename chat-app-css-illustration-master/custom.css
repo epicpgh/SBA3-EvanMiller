@@ -1,54 +1,70 @@
-.desktop{
-   
-    height: 800px !important;
-    width: 1440px !important;
-    display: flex;
-    
+*{
+    padding:0;
+    margin:0;
 }
 
-.purple-element{
-    background: linear-gradient(180deg, #E844FF 0%, #8739FF 100%) !important;
-    border-radius: 50pc !important;
-    width: 510px;
-    height: 1018px;
-    position: relative;
-    left: -5%;
-    top: -65vh;
-    
-}  
-.info-card{
-    
-
-box-shadow: 0px 0px 13px 0px rgba(62, 39, 83, 0.25);
-    box-sizing: content-box;
-    height: 505px !important;
-    width: 247px !important;
-    
-
-} 
-.walker-info{
-    border-radius: 20px 20px 6px 6px;
-background: linear-gradient(225deg, #E844FF 0%, #8739FF 100%);
-
-}
-h2{
-    font-size: 1rem !important;
-}
-h3{
-    font-size: .75rem!important;
-
-}
-#message{
+body{
+    background-color: hsl(270, 20%, 96%);
     font-family: "Rubik", sans-serif;
-  font-size: 8px;
-  font-weight: regular;
-  font-style: normal;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  
 }
-#dog-img{
-    height:40px;
-    width:40px;
+
+
+.info-card{
+    display: flex;
+    flex-direction: column;
+    width: 210px;
+    max-height: 100%;
+    height: 450px;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: white;
+    margin-bottom: 40px;
+    } 
+
+
+.info-card-head{
+   height: 60px;
+   width: 100%;
+   border-radius: 20px 20px 8px 8px;
+
 }
-.info{
-    width: 445px;
-    height:183px;
+
+.info-card-camera{
+    height: 20px;
+    width: 130px;
+    border-radius: 0px 0px 30px 30px;
+    background-color: white;
 }
+
+.info-card-text{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+.name {
+    font-size: 12px;
+  }
+
+.availability {
+    font-size: 8px;
+    color: lightgray;
+  }
+
+  .ellipsis-1 {
+    margin-right: 15px;
+  }
+
+  
+
+  .info-card-text.
+  
